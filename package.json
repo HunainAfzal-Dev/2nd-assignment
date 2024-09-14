@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"This template does not include a test runner by default.\" && exit 1",
+    "format": "prettier --write \"src/**/*.{ts,js}\"",
+    "lint": "prettier --check \"src/**/*.{ts,js}\""
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.2.0",
+    "jquery": "^3.7.1",
+    "owl.carousel": "^2.3.4",
+    "typed.js": "^2.1.0",
+    "waypoints": "^4.0.1"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-typescript": "^1.2.1",
+    "@snowpack/plugin-webpack": "^3.0.0",
+    "@types/canvas-confetti": "^1.0.0",
+    "@types/snowpack-env": "^2.3.3",
+    "prettier": "^2.2.1",
+    "snowpack": "^3.8.8",
+    "typescript": "^4.2.4"
+  }
+}
